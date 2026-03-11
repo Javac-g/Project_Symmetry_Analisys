@@ -1,4 +1,16 @@
+package com.max.hexopt.core.topology;
+
 public class Face {
-    public int id;
-    public HalfEdge edge; // one edge on boundary
+
+    private final int id;
+    private HalfEdge edge;
+
+    public Face(int id) {
+        this.id = id;
+    }
+
+    public int id() { return id; }
+    public HalfEdge edge() { return edge; }
+
+    void setEdge(HalfEdge edge) { this.edge = edge; }
 }
