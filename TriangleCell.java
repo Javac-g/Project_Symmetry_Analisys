@@ -6,7 +6,6 @@ import javafx.scene.shape.MeshView;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class TriangleCell {
 
     private final int id;
